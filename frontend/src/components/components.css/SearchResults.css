@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+    width: calc(33.33% - 1rem);
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  

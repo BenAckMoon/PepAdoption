@@ -1,0 +1,150 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('./adoptapet.jpg');
+    background-size: cover;
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #383838;
+    color: #fff;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    transform: scale(1.1);
+  }
+  
+  nav button {
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav button:hover {
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: #383838;
+    text-shadow: 2px 2px #fff;
+  }
+  
+  .card {
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin: 20px;
+    color: #383838;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 20px;
+    color: #808080;
+  }
+  
+  .card button {
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card button:hover {
+    transform: scale(1.1);
+  }
+  
+  form label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #383838;
+  }
+  
+  form input[type='text'],
+  form input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button[type='submit'] {
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  form button[type='submit']:hover {
+    transform: scale(1.1);
+  }
+  
+  form button {
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  form button:hover {
+    transform: scale(1.1);
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .search-form input[type='text'] {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-right: 10px
+}
+

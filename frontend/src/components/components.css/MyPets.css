@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .pet {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+  }
+  
+  .pet h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .pet p {
+    margin: 5px 0;
+  }
+  
+  .pet img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #CCC;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #EEE;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  button.adoption {
+    background-color: #33CC33;
+    color: #FFF;
+  }
+  
+  button.favor {
+    background-color: #FFCC00;
+    color: #333;
+  }
+  
+  button.return {
+    background-color: #CC0000;
+    color: #FFF;
+  }
+  
+  button.save {
+    background-color: #999;
+    color: #FFF;
+  }
+  
